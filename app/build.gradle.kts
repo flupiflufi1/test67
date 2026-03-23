@@ -65,6 +65,7 @@ dependencies {
 chaquopy {
     defaultConfig {
         version = "3.11"
+        buildPython("/usr/bin/python3", "/usr/local/bin/python3", "/usr/bin/python3.11", "/usr/local/bin/python3.11")
         pip {
             install("cryptography")
         }
